@@ -11,3 +11,27 @@
   padding: 0 2em;
   cursor: pointer;
 }
+
+.withLoader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader-logo{
+  height:20px;
+  margin-left:10px;
+}
+
+.loading{
+  animation: rotation 1s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
