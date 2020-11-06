@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '../button/Button';
+import StatrButton from '../button/StatrButton';
 
 import './Styles.scss';
 
@@ -13,7 +13,7 @@ const Intro = ({gameStatus, setGameStatus}) => {
                 <div className="introContainer--message">
                     {gameStatus.message}
                 </div>
-                <Button label="start" handleSubmit={()=> setGameStatus({loadIntro: false})} />
+                <StatrButton label="start" handleSubmit={()=> setGameStatus({loadIntro: false})} />
         </div>
     )
 }

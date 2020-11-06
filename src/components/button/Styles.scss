@@ -1,29 +1,37 @@
 @import '../../styles/utils/colors';
 
-.submitButton{
-  text-align: center;
+.startButton{
   color: white;
   line-height: 50px;
   font-size: 20px;
   border-radius: 25px;
   font-weight: 600;
   background-color: $grass-blade;
-  padding: 0 2em;
+  padding: 0 2rem 0 2rem;
   cursor: pointer;
 }
 
-.withLoader{
+.submitButton{
+  color: white;
+  line-height: 50px;
+  font-size: 20px;
+  border-radius: 25px;
+  font-weight: 600;
+  background-color: $grass-blade;
+  padding: 0 0.2rem 0 1.8rem;
+  cursor: pointer;
+}
+
+.container{
+  width:6rem;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
-.loader-logo{
+.loader{
   height:20px;
-  margin-left:10px;
-}
+  margin-left:2px;
 
-.loading{
   animation: rotation 1s infinite linear;
 }
 
